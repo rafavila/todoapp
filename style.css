@@ -1,0 +1,134 @@
+
+html {
+
+    font-family: 'Capriola';
+    background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
+    background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 52px;
+    text-shadow:rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;  ;
+    letter-spacing: -3px;
+    word-spacing: 5px;
+    width: 530px;
+    height: 200px
+    
+}
+
+.input_section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.input_box {
+    border: none;
+    width: 450px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: left;
+    line-height: 55px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.input_box[type="text"] {
+    border: none;
+    padding: 0 25px;
+    font-family: 'Capriola';
+    font-size: 20px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    
+}
+
+.button {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.button:hover {
+  opacity: 50%;
+  transition: 0.2s;
+}
+
+.icon { 
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Capriola';
+    font-size: 30px;
+}
+
+#task_container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.task_item {
+    background-color: white;
+    color:#00069F;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    height: 70px;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    
+}
+
+#new_input_text {
+    font-size: 23px;
+    width: 80%;
+    padding-right: 25px;
+    padding-left: 35px;
+    
+}
+
+#delete_button {
+    padding: 10px;
+    height: 35px;
+
+}
+
+#delete_button:hover {
+    opacity: 40%;
+    transition: 0.2s;
+    height: 40px;
+    
+}
+
+::placeholder {
+    color: rgb(172, 172, 172);
+    font-size: 20px;
+    font-family: 'Capriola';
+    
+}
+
+.removed {
+    transition: transform
+}
